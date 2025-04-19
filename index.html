@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohan's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+    header, section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header img {
+      border-radius: 20px;
+      width: 200px;
+      height: auto;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #2563eb;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: grid;
+      gap: 20px;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Mohan!</h1>
+    <p>A passionate Web Developer skilled in HTML, CSS, JavaScript, and responsive design.</p>
+    <img src="Mohan.jpg" alt="Mohan's Photo" />
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a B.Tech Information Technology graduate with a strong foundation in web technologies.</p>
+      <ul>
+        <li><strong>Education:</strong> B.Tech in Information Technology, MVGR College Of Engineering</li>
+        <li><strong>Experience:</strong>Salesforce Virtual Internship (11-2023 to 01-2024)</li>
+        <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB, Git</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal website built with HTML, CSS, and JavaScript showcasing my work and blog.</p>
+      </div>
+      <div class="card">
+        <h3>Foodie Delight</h3>
+        <p>Frontend Restuarent web application using HTML,CSS,JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>StopWatch</h3>
+        <p>Frontend StopWatch web application using HTML,CSS,JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>Frontend Tic-Tac-Toe game web application using HTML,CSS,JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get In Touch</h2>
+    <p>I'm currently open to new opportunities. Feel free to connect!</p>
+    <button class="btn">Contact Me</button>
+  </section>
+</body>
+</html>
